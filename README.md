@@ -1,3 +1,7 @@
+![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-blue)
+![SOC](https://img.shields.io/badge/Role-SOC%20Analyst-green)
+![SIEM](https://img.shields.io/badge/SIEM-Elastic-orange)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 # SOC Home Lab
 
 ## Overview
