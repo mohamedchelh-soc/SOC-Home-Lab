@@ -55,3 +55,35 @@ Future improvements:
 - Add investigation reports
 - Add dashboards
 - Add threat hunting scenarios
+## Project Structure
+
+```
+SOC-Home-Lab/
+│
+├── Reports/
+│   ├── Incident-001-Malware-Detection.md
+│   ├── Threat-Hunting-Case-001.md
+│   └── Elastic-SOC-Dashboard.md
+│
+├── Detection-Rules/
+│   └── Suspicious-PowerShell-Execution.yml
+│
+├── Scripts/
+│   ├── file_hash_checker.py
+│   └── README.md
+│
+└── Screenshots/
+    └── README.md
+```
+
+## Portfolio Highlights
+
+This project demonstrates practical skills in:
+
+- SOC Operations
+- SIEM Monitoring
+- Incident Response
+- Threat Hunting
+- Detection Engineering
+- Python Security Automation
+- Security Documentation
