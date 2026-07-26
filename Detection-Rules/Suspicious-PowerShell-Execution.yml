@@ -1,0 +1,32 @@
+title: Suspicious PowerShell Execution Detection
+id: soc-lab-001
+status: experimental
+description: Detects suspicious PowerShell execution patterns often used by attackers.
+author: Mohamed
+date: 2026/07/26
+logsource:
+  product: windows
+  service: sysmon
+
+detection:
+  selection:
+    Image|endswith:
+      - '\powershell.exe'
+      - '\pwsh.exe'
+
+    CommandLine|contains:
+      - '-enc'
+      - 'Invoke-Expression'
+      - 'DownloadString'
+      - 'IEX'
+
+  condition: selection
+
+falsepositives:
+  - Legitimate administrative scripts
+
+level: medium
+
+tags:
+  - attack.execution
+  - attack.t1059.001
