@@ -1,2 +1,57 @@
-# SOC-Home-Lab
-Cybersecurity Home Lab for SOC monitoring, SIEM detection, and incident response practice.
+# SOC Home Lab
+
+## Overview
+This project documents my cybersecurity home lab designed to simulate a Security Operations Center (SOC) environment.
+
+The objective is to practice:
+- Security monitoring
+- Log analysis
+- Incident response
+- Threat detection
+- SIEM investigation
+
+## Lab Architecture
+
+Components:
+- Windows Endpoint
+- Linux Attack Machine
+- Elastic Security SIEM
+- Sysmon
+- Network monitoring tools
+
+## Objectives
+
+- Collect and analyze security logs
+- Detect suspicious activities
+- Investigate security alerts
+- Create detection rules
+- Document incident response procedures
+
+## Skills Demonstrated
+
+- SOC Operations
+- SIEM Monitoring
+- Incident Response
+- Digital Forensics
+- Windows Security
+- Linux Administration
+- Network Analysis
+
+## Tools
+
+- Elastic Security
+- Sysmon
+- Wireshark
+- Nmap
+- Python
+- PowerShell
+
+## Project Status
+
+🟡 In Progress
+
+Future improvements:
+- Add detection rules
+- Add investigation reports
+- Add dashboards
+- Add threat hunting scenarios
